@@ -1,0 +1,11 @@
+# Use this template configuration file to enable Dependabot scanning for your dependencies files.
+# Validate your configuration file here - https://dependabot.com/docs/config-file/validator/
+
+version: 1
+
+update_configs:
+  - package_manager: "python"
+    directory: "/requirements"
+    update_schedule: "daily"
+    default_reviewers:
+     - nkotsev
