@@ -20,7 +20,7 @@ cryptography==2.7         # via moto, sshpubkeys
 datetime==4.3             # via moto
 docker==4.0.2             # via moto
 docutils==0.14            # via botocore
-ecdsa==0.13.2             # via python-jose, sshpubkeys
+ecdsa==0.13.3             # via python-jose, sshpubkeys
 future==0.17.1            # via aws-xray-sdk, python-jose
 idna==2.8                 # via moto, requests
 jinja2==2.10.1            # via moto
