@@ -47,7 +47,7 @@ rsa==4.0                  # via python-jose
 s3transfer==0.2.1         # via boto3
 six==1.12.0               # via aws-sam-translator, cfn-lint, cryptography, docker, jsonschema, mock, moto, pip-tools, pyrsistent, python-dateutil, python-jose, responses, websocket-client
 sshpubkeys==3.1.0         # via moto
-urllib3==1.25.3           # via botocore, requests
+urllib3==1.25.7           # via botocore, requests
 websocket-client==0.56.0  # via docker
 werkzeug==0.15.5          # via moto
 wrapt==1.11.2             # via aws-xray-sdk
