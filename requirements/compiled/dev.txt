@@ -8,7 +8,7 @@ asn1crypto==0.24.0        # via cryptography
 attrs==19.1.0             # via jsonschema
 aws-sam-translator==1.13.1  # via cfn-lint
 aws-xray-sdk==2.4.2       # via moto
-boto3==1.9.205            # via aws-sam-translator, moto
+boto3==1.11.0            # via aws-sam-translator, moto
 boto==2.49.0              # via moto
 botocore==1.12.205        # via aws-xray-sdk, boto3, moto, s3transfer
 certifi==2019.6.16        # via requests
